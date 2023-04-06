@@ -8,7 +8,7 @@ app.get('/',function(res,req){
 })
 app.get('/nihao',function(res,req){
 
-  req.send('这是一个接口请求')
+  req.send('这是一个接口请求nihao')
 })
 app.get('/api/first',function(res,req){
 
