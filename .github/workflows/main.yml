@@ -28,8 +28,6 @@ jobs:
 
           # 由于网路情况，很容易超时，设置为60s
           connect_timeout: 60s
-          first_ssh: |
-            sudo -i
           # 将工作目录下的文件全部拷贝到部署服务器的工作目录
           scp: |
             ./* => /home/node_pro/node2
