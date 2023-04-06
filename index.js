@@ -12,7 +12,7 @@ app.get('/nihao',function(res,req){
 })
 app.get('/api/first',function(res,req){
 
-  req.send('处理数据')
+  req.send('处理数据first')
 })
 app.get('/api/two',function(res,req){
 
