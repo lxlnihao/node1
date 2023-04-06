@@ -35,4 +35,4 @@ jobs:
           last_ssh: |
             cd /home/node_pro/node2
             npm install
-            pm2 reload index.js
+            pm2 reload index
