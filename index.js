@@ -14,5 +14,9 @@ app.get('/api/first',function(res,req){
 
   req.send('处理数据')
 })
+app.get('/api/two',function(res,req){
+
+  req.send('/api/two')
+})
 app.listen(3000)
 
