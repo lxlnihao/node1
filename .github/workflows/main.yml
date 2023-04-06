@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Node auto deployment
 on:
   push:
     branches: [ develop ] #监听master分支的push事件
