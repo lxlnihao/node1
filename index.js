@@ -18,5 +18,9 @@ app.get('/api/two',function(res,req){
 
   req.send('/api/two')
 })
+app.get('/api/three',function(res,req){
+
+  req.send('/api/three')
+})
 app.listen(3000)
 
