@@ -20,7 +20,7 @@ app.get('/api/two',function(res,req){
 })
 app.get('/api/three',function(res,req){
 
-  req.send('/api/three1')
+  req.send('/api/three12')
 })
 app.listen(3000)
 
