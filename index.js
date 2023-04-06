@@ -16,7 +16,7 @@ app.get('/api/first',function(res,req){
 })
 app.get('/api/two',function(res,req){
 
-  req.send('/api/two1')
+  req.send('/api/two')
 })
 // app.get('/api/three',function(res,req){
 
